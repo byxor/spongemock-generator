@@ -1,0 +1,17 @@
+canvas#canvas {
+  border: 1px solid white;
+}
+
+.styledLabel {
+  float: left;
+  width: 140px;
+}
+
+.styledInput {
+  width: 200px;
+  border: 1px solid #CCC;
+}
+
+.styledButton {
+  width: 340px;
+}
