@@ -85,7 +85,7 @@
   draw = (viewport, dimensions, font, memeText) => {
     clear(viewport)
     let spongebob = new Image()
-    spongebob.src = "https://pbs.twimg.com/media/C_aNOzCXgAICBD4.jpg"
+    spongebob.src = "spongemock.jpg"
     spongebob.onload = () => {
       drawSpongebob(viewport, dimensions, spongebob)
       drawMemeText(viewport, dimensions, font, memeText)
