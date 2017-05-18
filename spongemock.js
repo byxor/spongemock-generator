@@ -55,7 +55,7 @@
 
   clear = (viewport) => {
     const oldFillStyle = viewport.context.fillStyle
-    viewport.context.fillStyle = "white"
+    viewport.context.fillStyle = "#eeeeee"
     viewport.context.fillRect(0, 0, canvas.width, canvas.height)
     viewport.context.fillStyle = oldFillStyle
   }
